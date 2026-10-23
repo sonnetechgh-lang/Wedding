@@ -2,10 +2,11 @@
   --ink: #35253c;
   --purple: #9617cf;
   --purple-deep: #7010a1;
-  --green: #1f7a1c;
-  --cream: #fffaf6;
-  --rose: #b84d63;
-  --card-border: #f0e3ed;
+  --gold: #c9a24a;
+  --gold-deep: #8a6410;
+  --gold-soft: #f3e6c4;
+  --cream: #fffaf3;
+  --card-border: #eee2c6;
   --font-body: "Montserrat", Arial, sans-serif;
   --font-script: "Allura", cursive;
 }
@@ -61,7 +62,7 @@ a:focus-visible {
   grid-template-columns: minmax(0, 1fr);
   place-items: start center;
   padding: clamp(9.5rem, 20vw, 15rem) 1.25rem 3rem;
-  background: radial-gradient(circle at 50% 35%, #fff 0, #fffaf6 55%, #faeee9 100%);
+  background: radial-gradient(circle at 50% 35%, #fff 0, #fffaf3 55%, #f7ecd2 100%);
 }
 
 .floral {
@@ -90,7 +91,7 @@ a:focus-visible {
 
 .eyebrow {
   margin: 0 0 0.35rem;
-  color: var(--green);
+  color: var(--gold-deep);
   font-size: clamp(0.875rem, 2vw, 0.95rem);
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -129,7 +130,7 @@ h2,
   align-items: center;
   justify-content: center;
   gap: 0.65rem;
-  color: var(--green);
+  color: var(--gold-deep);
   font-size: clamp(1rem, 4vw, 1.25rem);
   font-weight: 700;
 }
@@ -137,7 +138,7 @@ h2,
 .date-time i {
   width: 1px;
   height: 1.25em;
-  background: #d6c9cf;
+  background: var(--gold);
 }
 
 .venue {
@@ -208,7 +209,7 @@ h2,
 
 .honouree-list li {
   padding: 0.85rem 1rem;
-  color: var(--green);
+  color: var(--gold-deep);
   background: rgb(255 255 255 / 72%);
   border: 1px solid var(--card-border);
   border-radius: 14px;
@@ -230,7 +231,7 @@ h2,
 
 .section-heading p {
   margin: 0 0 0.6rem;
-  color: var(--rose);
+  color: var(--gold-deep);
   font-size: 0.875rem;
   font-weight: 800;
   letter-spacing: 0.14em;
@@ -262,7 +263,7 @@ h2 {
   bottom: 1rem;
   left: 23px;
   width: 1px;
-  background: linear-gradient(var(--purple), #e9cfef);
+  background: linear-gradient(var(--purple), var(--gold));
 }
 
 .timeline li {
@@ -283,7 +284,7 @@ h2 {
   place-items: center;
   color: var(--purple-deep);
   background: var(--cream);
-  border: 1px solid #d9aee5;
+  border: 1px solid var(--gold);
   border-radius: 99px;
   font-size: 0.7rem;
   font-weight: 900;
@@ -295,7 +296,7 @@ h2 {
   background: rgb(255 255 255 / 80%);
   border: 1px solid var(--card-border);
   border-radius: 16px;
-  box-shadow: 0 8px 24px rgb(74 42 65 / 5%);
+  box-shadow: 0 8px 24px rgb(138 100 16 / 7%);
   font-weight: 600;
   line-height: 1.45;
 }
@@ -327,7 +328,7 @@ h2 {
   height: 36px;
   place-items: center;
   color: #fff;
-  background: var(--green);
+  background: var(--gold-deep);
   border-radius: 50%;
   font-size: 0.875rem;
   font-weight: 900;
@@ -360,7 +361,7 @@ footer {
 
 footer > p:nth-child(2) {
   max-width: 520px;
-  color: var(--green);
+  color: var(--gold-deep);
   font-size: clamp(1rem, 4vw, 1.25rem);
   line-height: 1.5;
 }
