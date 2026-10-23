@@ -1,4 +1,4 @@
-# Mawuko & Gifty Wedding Programme
+# Bernice & Richard Wedding Programme
 
 A responsive wedding programme built with plain HTML and CSS.
 
